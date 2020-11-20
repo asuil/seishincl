@@ -1,0 +1,74 @@
+@import 'general-compatibility.css';
+
+button {
+    font-family: var(--fonts);
+    text-decoration: none;
+    border: 0;
+    cursor: pointer;
+}
+
+body {
+	font-family: var(--fonts);
+	margin: 0;
+    overflow-x: hidden;
+    background-image: url('../media/bg.png');
+    background-size: 100rem;
+    background-position: center;
+}
+
+
+.logo-container {
+    width: 0;
+    height: 0;
+}
+.logo {
+    position: fixed;
+    right: 2rem;
+    bottom: 0;
+    height: 10rem;
+    width: 10rem;
+}
+
+
+.back-container {
+	position: absolute;
+	top: 1rem;
+}
+.back {
+}
+.back-content {
+	padding: .5rem 2rem .5rem 4rem;
+	font-size: 1.2rem;
+	color: var(--white);
+	background-color: var(--red);
+}
+.back-content:hover {
+	background-color: var(--darkred);
+}
+
+
+.mona-xina-container {
+	position: absolute;
+	top: 3rem;
+	left: 7rem;
+}
+.mona-xina {
+}
+.mona-xina-content {
+	width: 25rem;
+}
+
+
+.wip-text-container {
+	position: absolute;
+	top: 12rem;
+}
+.wip-text {
+	background-color: var(--red);
+	width: 100rem;
+	padding: 7rem 0 7rem 30rem;
+}
+.wip-text-content {
+	color: var(--white);
+	font-size: 2rem;
+}

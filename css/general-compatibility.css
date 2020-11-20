@@ -1,0 +1,33 @@
+html {
+    font-size: 1vw;
+}
+
+@font-face {
+    font-family: 'baronNeueBlack';
+    src: url('../font/Baron Neue Black.eot');
+    src: url('../font/Baron Neue Black.woff2') format('woff2'),
+         url('../font/Baron Neue Black.woff') format('woff'),
+         url('../font/Baron Neue Black.ttf') format('truetype'),
+         url('../font/Baron Neue Black.svg#baronNeueBlack') format('svg');
+}
+:root {
+    --red: rgb(220, 0, 0);
+    --darkred: rgb(190, 0, 0);
+    --black: rgb(20, 20, 20);
+    --lightgray: rgb(222,222,222);
+    --darkgray: rgb(44,44,44);
+    --white: rgb(254,254,254);
+    --fonts: 'baronNeueBlack';
+}
+::-webkit-scrollbar {
+    width: .8rem;
+}
+::-webkit-scrollbar-track {
+    background: var(--lightgray);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--darkgray);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--black);
+}

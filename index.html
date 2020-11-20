@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel='shortcut icon' type='image/png' href='media/logo-h.png' />
+		<link rel="stylesheet" type="text/css" href="css/index.css?v=0.01.0102">
+		<script type="text/javascript" src="js/index.js?v=0.01.0070"></script>
+
+		<script src="https://kit.fontawesome.com/fdedda3ca5.js" crossorigin="anonymous"></script>
+
+		<title>Anime no Seishin Doukoukai</title>
+
+	</head>
+
+	<body>
+
+		<div name="redirect-forms">
+			<form id="redirect-faq" action="faq.html"></form>
+			<form id="redirect-album" action="album.html"></form>
+			<form id="redirect-art" action="art.html"></form>
+			<form id="redirect-lore" action="lore.html"></form>
+			<form id="redirect-tops" action="tops.html"></form>
+			<form id="redirect-calendar" action="calendar.html"></form>
+			<form id="redirect-reseñas" action="reseñas.html"></form>
+		</div>
+
+		<div class="darken"></div>
+
+		<div class="sidebar-container"> 										<!-- where to place it -->
+			<div class="sidebar">								 				<!-- color and size & onhover -->
+				<div class="line-container" onclick="scrollToDiv('top');">		<!-- where to place it -->
+					<div class="line">											<!-- color and size & onclick -->
+						<div class="icon-container">							<!-- where to place it -->
+							<i class="fas fa-arrow-up"></i>						<!-- lots of things-->
+						</div>
+						<div class="label-container">							<!-- where to place it -->
+							<label>inicio</label>								<!-- lots of things-->
+						</div>
+						
+					</div>
+				</div>
+				<div class="line-container" onclick="scrollToDiv('faq');">
+					<div class="line">
+						<div class="icon-container">
+							<i class="fas fa-question"></i>
+						</div>
+						<div class="label-container">
+							<label>faq</label>
+						</div>
+						
+					</div>
+				</div>
+				<div class="line-container" onclick="scrollToDiv('gallery');">
+					<div class="line">
+						<div class="icon-container">
+							<i class="fas fa-images"></i>
+						</div>
+						<div class="label-container">
+							<label>galería</label>
+						</div>
+						
+					</div>
+				</div>
+				<div class="line-container" onclick="scrollToDiv('lore');">
+					<div class="line">
+						<div class="icon-container">
+							<i class="fas fa-book"></i>
+						</div>
+						<div class="label-container">
+							<label>lore</label>
+						</div>
+						
+					</div>
+				</div>
+				<div class="line-container" onclick="scrollToDiv('tops');">
+					<div class="line">
+						<div class="icon-container">
+							<i class="fas fa-list"></i>
+						</div>
+						<div class="label-container">
+							<label>tops</label>
+						</div>
+						
+					</div>
+				</div>
+				<div class="line-container" onclick="scrollToDiv('calendar');">
+					<div class="line">
+						<div class="icon-container">
+							<i class="fas fa-calendar-alt"></i>
+						</div>
+						<div class="label-container">
+							<label>calendario</label>
+						</div>
+						
+					</div>
+				</div>
+				<div class="line-container" onclick="scrollToDiv('forum');">
+					<div class="line">
+						<div class="icon-container">
+							<i class="fas fa-comments"></i>
+						</div>
+						<div class="label-container">
+							<label>foro</label>
+						</div>
+						
+					</div>
+				</div>
+				<div class="line-container" onclick="scrollToDiv('contact');">
+					<div class="line">
+						<div class="icon-container">
+							<i class="fas fa-address-book"></i>
+						</div>
+						<div class="label-container">
+							<label>contacto</label>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="logo-container">
+			<img class="logo" src="media/logo.png" alt="Logo de Seishin">
+		</div>
+
+		<div class="top-section" id="top">
+
+			<svg class="diagonal">
+				<path class="do-resize path-red" d="M40 0 L40 40 L0 40 L40 0" />
+			</svg>
+
+			<div class="title-container">
+				<h1 class="main-title">anime no seishin doukoukai</h1>
+			</div>
+
+			<svg class="diagonal">
+				<path class="do-resize path-red" d="M0 0 L40 0 L0 40 L0 0" />
+			</svg>
+
+		</div>
+
+		<div class="sections">
+
+			<svg class="diagonal skip">
+				<path class="do-resize path-white" d="M0 0 L40 40 L0 40 L0 0" />
+			</svg>
+
+			<div class="index-wrapper">
+
+				<div class="title-container">
+					<h1 class="main-title">índice</h1>
+				</div>
+
+				<div class="text-container index">
+					<div class="item" onclick="scrollToDiv('faq');">
+						<label class="index-text">faq</label>
+						<i class="fas fa-question icon"></i>
+					</div>
+					<div class="item" onclick="scrollToDiv('gallery');">
+						<label class="index-text">galerías</label>
+						<i class="fas fa-images icon"></i>
+					</div>
+					<div class="item" onclick="scrollToDiv('lore');">
+						<label class="index-text">lore</label>
+						<i class="fas fa-book icon"></i>
+					</div>
+					<div class="item" onclick="scrollToDiv('tops');">
+						<label class="index-text">tops</label>
+						<i class="fas fa-list icon"></i>
+					</div>
+					<div class="item" onclick="scrollToDiv('calendar');">
+						<label class="index-text">calendario</label>
+						<i class="fas fa-calendar-alt icon"></i>
+					</div>
+					<div class="item" onclick="scrollToDiv('forum');">
+						<label class="index-text">foro</label>
+						<i class="fas fa-comments icon"></i>
+					</div>
+					<div class="item" onclick="scrollToDiv('contact');">
+						<label class="index-text">contacto</label>
+						<i class="fas fa-address-book icon"></i>
+					</div>
+				</div>
+			</div>
+
+			<svg class="diagonal" id="out-of-index">
+				<path class="do-resize path-white" d="M0 0 L40 0 L0 40 L0 0" />
+			</svg>
+
+			<svg class="diagonal skip">
+				<path class="do-resize path-white" d="M40 0 L40 40 L0 40 L40 0" />
+			</svg>
+
+			<div id="faq" class="text-container subsection">
+				<div class="title-container">
+					<h1 class="main-title">faq</h1>
+				</div>
+				<h2 class="title">¿quiénes somos?</h2>
+				<p class="text">somos estudiantes de la universidad de chile que se reúnen como comunidad para celebrar
+					y conmemorar la cultura japonesa con diversas actividades dentro de la facultad de ingeniería</p>
+				<h2 class="title">¿qué hacemos?</h2>
+				<p class="text">nuestras principales actividades son tardes de karaoke, ciclos de animación, y nuestro
+					evento anual swaa!</p>
+				<h2 class="title">¿qué es "swaa!"?</h2>
+				<p class="text">Cada año nos organizamos para crear una nueva entrega del evento swaa!, un evento de
+					anime tipo feria con actividades y juegos. En cada entrega ofrecemos una temática diferente de un
+					aspecto de la cultura japonesa y basamos tanto las decoraciones como actividades al rededor de ella
+				</p>
+				<div class="see-more-container">
+					<button class="see-more" form="redirect-faq">visitar faq!</button>
+				</div>
+			</div>
+
+			<svg class="diagonal">
+				<path class="do-resize path-white" d="M0 0 L40 0 L40 40 L0 0" />
+			</svg>
+
+			<svg class="diagonal skip">
+				<path class="do-resize path-red" d="M40 0 L40 40 L0 40 L40 0" />
+			</svg>
+
+			<div id="gallery" class="text-container subsection red">
+				<div class="title-container">
+					<h1 class="main-title">galería</h1>
+				</div>
+				<h2 class="title">álbum</h2>
+				<p class="text">conoce a nuestros integrantes en las fotografías de nuestro álbum, aquí encontrarás
+					tanto fotos individuales de miembros actives de la comunidad como fotos grupales conmemorativas de
+					sucesos importantes para nosotres</p>
+				<div class="see-more-container">
+					<button class="see-more" form="redirect-album">ver fotos!</button>
+				</div>
+				<h2 class="title">ilustraciones</h2>
+				<p class="text">observa las maravillosas ilustraciones que hemos recolectado a través de los años, aquí
+					encontrarás ilustraciones que recibimos en eventos swaa! al igual que todos los fanarts de
+					sehishin-tan, nuestra querida mascota</p>
+				<div class="see-more-container">
+					<button class="see-more" form="redirect-art">ver ilustraciones!</button>
+				</div>
+			</div>
+
+			<svg class="diagonal">
+				<path class="do-resize path-red" d="M0 0 L40 0 L0 40 L0 0" />
+			</svg>
+
+			<svg class="diagonal skip">
+				<path class="do-resize path-white" d="M0 0 L40 40 L0 40 L0 0" />
+			</svg>
+
+			<div id="lore" class="text-container subsection">
+				<div class="title-container">
+					<h1 class="main-title">lore</h1>
+				</div>
+				<h2 class="title">Historia y Memes</h2>
+				<p class="text">con tantos años de funcionamiento era de esperarse que mucha historia se vaya
+					acumulando, si te interesa conocerla este es tu lugar! (aquí también están los memes internos)</p>
+				<div class="see-more-container">
+					<button class="see-more" form="redirect-lore">ver lore!</button>
+				</div>
+			</div>
+
+			<svg class="diagonal">
+				<path class="do-resize path-white" d="M0 0 L40 0 L40 40 L0 0" />
+			</svg>
+
+			<svg class="diagonal skip">
+				<path class="do-resize path-red" d="M40 0 L40 40 L0 40 L40 0" />
+			</svg>
+
+			<div id="tops" class="text-container subsection red">
+				<div class="title-container">
+					<h1 class="main-title">tops</h1>
+				</div>
+				<h2 class="title">top 10+1 animes</h2>
+				<p class="text">si quieres elegir algo que ver sin rodeos, este es tu lugar! aquí encontrarás nuestro top
+					10+1 mejores animes de esta temporada según la votación popular de nuestra comunidad</p>
+				<h2 class="title">waifu y husbando</h2>
+				<p class="text">al igual que todes a veces encontramos personajes que no podemos evitar amar, esta sección
+					es para darles la atención que merecen! mensualmente actualizaremos la preferencia general de la
+					comunidad</p>
+				<div class="see-more-container">
+					<button class="see-more" form="redirect-tops">ver tops!</button>
+				</div>
+				<h2 class="title">reseñas</h2>
+				<p class="text">si un simple top no es tu estilo, aquí encontrarás nuestras reseñas mucho más
+					detalladas, cada miembro de la comunidad es libre de escribir una reseña sobre el anime
+					que quiera, cuando quiera, utilizando un nombre clave!</p>
+				<div class="see-more-container">
+					<button class="see-more" form="redirect-reseñas">ver reseñas!</button>
+				</div>
+			</div>
+
+			<svg class="diagonal">
+				<path class="do-resize path-red" d="M0 0 L40 0 L0 40 L0 0" />
+			</svg>
+
+			<svg class="diagonal skip">
+				<path class="do-resize path-white" d="M0 0 L40 40 L0 40 L0 0" />
+			</svg>
+
+			<div id="calendar" class="text-container subsection">
+				<div class="title-container">
+					<h1 class="main-title">calendario</h1>
+				</div>
+				<h2 class="title">actividades</h2>
+				<p class="text">mantente al tanto de nuestras actividades y eventos revisando el calendario oficial!</p>
+				<div class="see-more-container">
+					<button class="see-more" form="redirect-calendar">ver calendario!</button>
+				</div>
+			</div>
+
+			<svg class="diagonal">
+				<path class="do-resize path-white" d="M0 0 L40 0 L40 40 L0 0" />
+			</svg>
+
+			<svg class="diagonal skip">
+				<path class="do-resize path-red" d="M0 0 L40 40 L0 40 L0 0" />
+			</svg>
+
+			<div id="forum" class="text-container subsection red">
+				<div class="title-container">
+					<h1 class="main-title">foro</h1>
+				</div>
+				<h2 class="title">en construcción</h2>
+				<p class="text">pronto se contará con un foro donde compartir entre todes!
+                   	(puede que esta sección termine siendo algo music related¿)</p>
+			</div>
+
+			<svg class="diagonal">
+				<path class="do-resize path-red" d="M0 0 L40 0 L0 40 L0 0" />
+			</svg>
+
+			<svg class="diagonal skip">
+				<path class="do-resize path-white" d="M40 0 L40 40 L0 40 L40 0" />
+			</svg>
+
+			<div id="contact" class="text-container subsection">
+				<div class="title-container">
+					<h1 class="main-title">contacto</h1>
+				</div>
+				<h2 class="title">¿dónde les encuentro?</h2>
+
+				<div class="single-contact">
+					en la sala 11 de la casa cei ubicada en tupper 2120, santiago!
+				</div>
+				<div class="single-contact">
+					email: <a href="mailto: contacto@seishin.cl">contacto@seishin.cl</a>
+				</div>
+				<div class="single-contact">
+					u-cursos: <a href="https://www.u-cursos.cl/uchile/2008/0/COMANIME2008/1/historial/">
+					comanime2008</a>
+				</div>
+				<div class="single-contact">
+					telegram: <a href="https://t.me/joinchat/H0-1OkyidQYQfJKpxS-gqQ">
+					seishin general</a>
+				</div>
+				<div class="single-contact">
+					discord: <a href="https://discordapp.com/invite/s4cJwU2">
+					seishin</a>
+				</div>
+				<div class="single-contact">
+					instagram: <a href="https://www.instagram.com/seishin_fcfm/">
+					@seishin_fcfm</a>
+				</div>
+				<div class="single-contact">
+					facebook: <a href="https://www.facebook.com/comseishin">
+					comseishin</a>
+				</div>
+			</div>
+
+			<svg class="diagonal">
+				<path class="do-resize path-white" d="M0 0 L40 0 L40 40 L0 0" />
+			</svg>
+
+			<div style="height: 5rem"></div>
+
+		</div>
+
+		<div class="credit">
+			sitio creado por ariel aravena, ilustraciones por fabian lorca!
+		</div>
+		<script>afterLoad();</script>
+
+	</body>
+
+</html>
